@@ -2,8 +2,6 @@ const ContactModel = require("../models/models-contact");
 
 const data = async (req, res) => {
   try {
-    console.log("Request Body:", req.body);
-
     const {
       username,
       phoneNumber,
